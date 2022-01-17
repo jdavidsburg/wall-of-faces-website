@@ -1,0 +1,41 @@
+h1{
+  font-size: 4vw;
+}
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+
+}
+p{
+font-family: 'Playfair Display', serif;
+size: 1em;
+}
+#headline{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.sub-head{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  display: inline;
+}
+
+/* videos */
+.gallery img{
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+
+.gallery img:hover {
+  filter: grayscale (100%);
+  transform: scale(1.1);
+}
