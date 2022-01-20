@@ -35,6 +35,6 @@ size: 1em;
 }
 
 .gallery img:hover {
-  filter: grayscale (100%);
-  transform: scale(1.1);
+  filter: grayscale(100%);
+  transform: scale(1.05);
 }
