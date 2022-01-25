@@ -27,7 +27,7 @@ size: 1em;
 /* videos */
 .gallery img{
   transition: 1s;
-  width: 231px;
+  width: 100%
   display: inline-block;
 }
 
