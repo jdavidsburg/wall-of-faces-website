@@ -4,6 +4,9 @@ font-family: 'Playfair Display', serif;
 size: 1em;
 }
 
+.wall{
+  background-color: black;
+}
 
 #headline{
   text-transform: uppercase;
@@ -11,9 +14,9 @@ size: 1em;
 }
 
 .hero-text{
+  color: white;
   padding-top: 1em;
   text-align: center;
-
 }
 
 .sub-head{
