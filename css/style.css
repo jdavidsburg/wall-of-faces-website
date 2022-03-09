@@ -18,6 +18,14 @@ size: 1em;
   padding-top: 1em;
   text-align: center;
 }
+.mobile-hero-text{
+  color: white;
+  background-color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  display: none;
+}
 
 .sub-head{
   font-family: 'Poppins', sans-serif;
@@ -91,3 +99,27 @@ h1{
 .image__overlay:hover {
 	opacity: 1;
 }
+
+
+/* media queries */
+@media screen and (max-width:800px){
+  .headline{
+    font-size: 20px;
+  }
+  .subhead{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:500px){
+    .hero-text{
+      display: none;
+    }
+    .mobile-hero-text{
+      display: block;
+    }
+    .sub-head{
+      font-size: 3vw;
+      display: inline;
+      padding-bottom: 30px;
+    }
+  }
